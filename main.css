@@ -50,8 +50,8 @@ header .logo{
 .logo3{
     height: 420px;
     position: absolute;
-    left: 350px;
-    top: 40px;
+    left: 1350px;
+    top: 68px;
 
 }
 
@@ -146,9 +146,17 @@ section img{
 
 #characters img{
     position: relative;
-    top: 200px;
+    top: 100px;
     align-items: center;
-    
+    left: 700px;
+    margin-bottom: 100px;
+    height: 500px;
+    background-image: url("https://i.pinimg.com/originals/b4/c0/0a/b4c00a790c252dfce3d379ff1661b41a.gif");
+    background-size: 1400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+
     
 }
 
@@ -670,10 +678,6 @@ footer{
         top: -10px;
     }
 
-    #characters .container{
-        height: 3800px;
-    }
-
     .container{
         position: relative;
         width: 460px;
@@ -1037,10 +1041,14 @@ footer{
         object-fit: contain;
         background-size: 1300px;
         top: 20px;
-        left: 100px;
+        left: 90px;
 
     }
-    
+
+    #characters .container{
+        height: 600px;
+    }
+
     section .cadastro{
         color: black;
         filter: brightness(100%);
@@ -1295,8 +1303,10 @@ section img{
     position: relative;
     top: 200px;
     align-items: center;
-    
-    
+    height: 400px;
+    margin-bottom: 250px;
+    padding: 10px;
+    margin-left: -200px;    
 }
 
 section img:hover{
