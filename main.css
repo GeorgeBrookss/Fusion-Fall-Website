@@ -853,3 +853,554 @@ footer{
     }
 
 }
+
+@media only screen and (min-width: 901px) and (max-width: 1400px){
+
+
+    body{
+        background-image: url('https://wallpapers.com/images/hd/green-space-9li0y9azzd1apg2k.jpg');
+        background-size: auto;
+        
+        
+    }
+    
+    header .logo{
+        top: 90px;
+        position: relative;
+        display: inline;
+        height: 90px;
+        left: 500px;
+        border: outset;
+        border-bottom-width: 10px;
+        border-color: rgba(7, 39, 7, 0.288);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-radius: 60cqmax;
+        background-image: url( "https://img1.picmix.com/output/stamp/normal/5/7/0/3/353075_f2d3c.gif");
+        background-repeat: repeat-x;
+        background-size: cover;
+        filter: brightness(200%);
+    }
+    
+    .logo:hover{
+        background-image: url("https://img1.picmix.com/output/stamp/normal/8/4/3/0/260348_dcddb.gif");
+        filter: brightness(200%);
+    }
+    
+    .logot{
+        position: absolute;
+        left: 390px;
+        top: 75px;
+        height: 220px;
+    }
+    
+    .logo3{
+        height: 220px;
+        position: absolute;
+        left: 720px;
+        top: 75px;
+    
+    }
+    
+    header nav{
+        display: block;
+        position: relative;        
+        top: 172px;
+        left: 340px;
+        width: 511px;
+        border: outset;
+        border-color: rgba(39, 194, 39, 0.397);
+        background-image: url('https://i.pinimg.com/736x/8f/fc/15/8ffc157a0f9b7b2964855e51a4992981.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Nova square', serif; 
+        height: 180px;
+        margin-bottom: 30px;
+    }
+    
+    header a{
+        text-align: center;
+        font-family: 'Nova square', serif;
+        justify-content: space-between;
+        font-size: 20px;
+        color: rgb(202, 253, 0);
+        left: 130px;
+        display: block;
+        width: 200px;
+        position: relative;
+        border: outset;
+        border-color: chartreuse;
+        background-image: url("https://media3.giphy.com/media/rVrE0tpvjcgcE/200w.gif?cid=6c09b952tuh5k3vi9ge0ngudnosgqbosmp81s81l5jkhra48&ep=v1_gifs_search&rid=200w.gif&ct=g");
+    }
+    
+
+    #about img{
+        position: relative;
+        height: 400px;
+        top: 40px;
+        left: 20px;
+    }
+    
+    #about img:hover{
+        height: 500px;
+    
+    }
+    
+    #maps .container{
+        display: block;
+    }
+    
+    #maps img{
+        position: relative;
+        top: -10px;
+    }
+
+    #characters .container{
+        height: 3800px;
+    }
+
+    .container{
+        position: relative;
+        width: 460px;
+        display: flex;
+        font-size: 18px;
+        color: aliceblue;
+        padding: 64px;
+        border: outset;
+        border-radius: 28px;
+        background-color: rgba(39, 194, 39, 0.345);
+        font-family: 'Nova square', serif;
+        margin: 8px;
+        top: 40px;
+        left: -5px;
+        margin-bottom: 120px;
+        display: block;
+    
+        
+    }
+    
+    section{
+        
+        padding: 10px;
+        position: relative;
+        top: 143px;
+        background-color: rgba(8, 71, 8, 0.671);
+        width: 500px;
+        left: 350px;   
+        
+    }
+
+    #characters p{
+        font-size: 18px;
+    }
+
+    section p{
+        position: relative;
+        top: -30px;
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    section img{
+        position: relative;
+        height: 200px;
+        border: outset;
+        border-color: rgba(132, 247, 0, 0.776);
+        border-radius: 200px;
+        cursor: pointer;
+        display: block;
+        margin-bottom: 40px;
+        left: -50px;
+        
+        
+    }
+    
+    section img:hover{
+        border-color: rgba(0, 0, 0, 0);
+        height: 200px;
+        background-image: url("https://i.pinimg.com/originals/b4/c0/0a/b4c00a790c252dfce3d379ff1661b41a.gif");
+        border-radius: 10px;  
+        background-size: 100%;
+        border-color: chartreuse;
+    }
+    
+    #characters .container img{
+        background-repeat: no-repeat;
+        background-position: center;
+        border: outset;
+        border-color: rgba(132, 247, 0, 0.281);
+        cursor: pointer;
+        height: 200px;
+        position: relative;
+        background-image: url("https://i.pinimg.com/originals/b4/c0/0a/b4c00a790c252dfce3d379ff1661b41a.gif");
+        object-fit: contain;
+        background-size: 1300px;
+        top: 20px;
+        left: 100px;
+
+    }
+    
+    section .cadastro{
+        color: black;
+        filter: brightness(100%);
+        width: 200px;
+        
+        
+    }
+    
+    #register{
+        position: relative;
+        left: 350px;
+        width: 500px;
+        background-color: rgba(25, 250, 5, 0.249);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        border: inset;
+        border-color: green;
+        display: block;
+        padding-right: 88px;
+    }
+    
+    form input,
+    form textarea,
+    form button{
+        position: relative;
+        display: block;
+        width: 220px;
+        margin-bottom: 2px;
+        padding: 2px;
+        color: black;
+        left: 100px;
+    }
+    button{
+        font-size: 30px;
+        color: rgb(26, 184, 26);
+        background-color: rgba(2, 43, 2, 0.614);
+        height: 40px;
+        width: 60px;
+        cursor: pointer;
+        color: aliceblue;
+        border-radius: 20px;
+    }
+    
+    button:hover{
+        border-color: aliceblue;
+        color: red;
+        background-image: url('https://media3.giphy.com/media/rVrE0tpvjcgcE/200w.gif?cid=6c09b952tuh5k3vi9ge0ngudnosgqbosmp81s81l5jkhra48&ep=v1_gifs_search&rid=200w.gif&ct=g');
+        color: rgb(202, 253, 0);
+        border-color: chartreuse;
+    }
+    
+    form textarea{
+        resize: none;
+        height: 90px;
+        display: flex;
+    }
+    
+    .sites{
+        padding-top: 70px;
+        position: relative;
+        left: 200px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        height: 50px;
+        width: 50px;
+        
+    }
+    
+    .sites img:hover{
+        height: 70px;
+        width: 70px;
+        border-radius: 40px;
+        border-color: chartreuse;
+        filter: brightness(2);
+    }
+    
+    footer{
+        position: relative;
+        text-align: center;
+        font-size: 15px;
+        top: 100px;
+        width: 100%;
+        border: outset;
+        border-color: rgba(34, 255, 0, 0.217);
+        background-color: rgba(0, 161, 64, 0.575);
+        
+    }
+    
+    .Numbuh2 {
+        height: 150px;
+        position: relative;
+        left: 350px;
+        top: -200px;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1401px) and (max-width: 1900px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'nova square', serif;
+    color: aliceblue;
+    font-weight: normal;
+    
+}
+
+body{
+    background-image: url('https://wallpapers.com/images/hd/green-space-9li0y9azzd1apg2k.jpg');
+    background-size: contain;
+    
+    
+}
+
+header .logo{
+    top: 100px;
+    position: relative;
+    display: inline;
+    height: 200px;
+    left: 500px;
+    border: outset;
+    border-bottom-width: 10px;
+    border-color: rgba(7, 39, 7, 0.288);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 60cqmax;
+    background-image: url( "https://img1.picmix.com/output/stamp/normal/5/7/0/3/353075_f2d3c.gif");
+    background-repeat: repeat-x;
+    background-size: cover;
+    filter: brightness(200%);
+}
+
+.logo:hover{
+    background-image: url("https://img1.picmix.com/output/stamp/normal/8/4/3/0/260348_dcddb.gif");
+    filter: brightness(200%);
+}
+
+.logot{
+    position: absolute;
+    left: 205px;
+    top: -8px;
+}
+
+.logo3{
+    height: 420px;
+    position: absolute;
+    left: 1050px;
+    top: 67px;
+
+}
+
+header nav{
+    display: flex;
+    padding: 14px;
+    position: relative;       
+    top: 208px;
+    left: 142px;
+    width: 813px;
+    border: outset;
+    border-color: rgba(39, 194, 39, 0.397);
+    background-image: url('https://i.pinimg.com/736x/8f/fc/15/8ffc157a0f9b7b2964855e51a4992981.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nova square', serif;
+    margin: 8px;
+}
+
+header a{
+    font-family: 'Nova square', serif;
+    margin: 8px;
+    font-size: 28px;
+    color: aliceblue;
+    border: outset;
+    border-radius: 28px;
+    background-color: rgba(39, 194, 39, 0.345);
+}
+
+header a:hover{
+    background-image: url("https://media3.giphy.com/media/rVrE0tpvjcgcE/200w.gif?cid=6c09b952tuh5k3vi9ge0ngudnosgqbosmp81s81l5jkhra48&ep=v1_gifs_search&rid=200w.gif&ct=g");
+    border-color: chartreuse;
+    color: rgb(202, 253, 0)
+}
+
+#maps .container{
+    position: relative;
+    display: block;
+}
+
+#maps img{
+    position: relative;
+    top: 120px;
+
+}
+
+.container{
+    justify-content: space-between;
+    font-size: 28px;
+    color: aliceblue;
+    padding: 14px;
+    border: outset;
+    border-radius: 28px;
+    background-color: rgba(39, 194, 39, 0.345);
+    font-family: 'Nova square', serif;
+    margin: 8px;
+    padding-bottom: 230px;
+    
+}
+
+section{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 200px;
+    background-color: rgba(8, 71, 8, 0.671);
+    width: 1200px;
+    left: 150px;    
+}
+
+#about img{
+    position: relative;
+    height: 700px;
+    top: 40px;
+
+}
+
+#about img:hover{
+    height: 900px;
+
+}
+
+section img{
+    
+    height: 250px;
+    border: outset;
+    border-color: rgba(132, 247, 0, 0.776);
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+#characters img{
+    position: relative;
+    top: 200px;
+    align-items: center;
+    
+    
+}
+
+section img:hover{
+    position: relative;
+    border-color: rgba(0, 0, 0, 0);
+    height: 300px;
+    background-image: url("https://i.pinimg.com/originals/b4/c0/0a/b4c00a790c252dfce3d379ff1661b41a.gif");
+    border-radius: 10px;  
+    background-size: 100%;
+    border-color: chartreuse;
+}
+
+
+#characters p {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+
+section .cadastro{
+    color: black;
+    filter: brightness(100%);
+    width: 200px;    
+}
+
+#register{
+    position: relative;
+    left: 150px;
+    width: 300px;
+    background-color: rgba(25, 250, 5, 0.249);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: inset;
+    border-color: green;
+    display: block;
+    padding-right: 88px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 220px;
+    margin-bottom: 2px;
+    padding: 2px;
+    color: black;
+}
+button{
+    font-size: 30px;
+    color: rgb(26, 184, 26);
+    background-color: rgba(2, 43, 2, 0.614);
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+button:hover{
+    border-color: aliceblue;
+    color: red;
+    background-image: url('https://media3.giphy.com/media/rVrE0tpvjcgcE/200w.gif?cid=6c09b952tuh5k3vi9ge0ngudnosgqbosmp81s81l5jkhra48&ep=v1_gifs_search&rid=200w.gif&ct=g');
+    color: rgb(202, 253, 0);
+    border-color: chartreuse;
+}
+
+form textarea{
+    resize: none;
+    height: 90px;
+    display: flex;
+}
+
+.sites img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.sites img:hover{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    border-color: chartreuse;
+    filter: brightness(2);
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    padding: 8px;
+    border: outset;
+    border-color: rgba(34, 255, 0, 0.217);
+    background-color: rgba(0, 161, 64, 0.575);
+    
+}
+
+.Numbuh2 {
+    height: 150px;
+    position: relative;
+    left: 80px;
+    top: -100px;
+    
+}
