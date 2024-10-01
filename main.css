@@ -7,6 +7,7 @@
     font-family: 'nova square', serif;
     color: aliceblue;
     font-weight: normal;
+    
 }
 
 body{
@@ -257,7 +258,7 @@ footer{
     
 }
 
-@media only screen and (min-width: 100px) and (max-width: 1500px){
+@media only screen and (min-width: 300px) and (max-width: 1500px){
 
 
     body{
@@ -268,11 +269,11 @@ footer{
     }
     
     header .logo{
-        top: 90px;
+        top: 150px;
         position: relative;
         display: inline;
-        height: 90px;
-        left: 100px;
+        height: 80px;
+        left: 90px;
         border: outset;
         border-bottom-width: 10px;
         border-color: rgba(7, 39, 7, 0.288);
@@ -291,18 +292,27 @@ footer{
         filter: brightness(200%);
     }
     
+    h2{
+        position: relative;
+        right: 60px;
+    }
+
+    #register h2{
+        right: 0px;
+    }
+
     .logot{
         position: absolute;
         left: 0px;
-        top: 75px;
-        height: 220px;
+        top: 130px;
+        height: 140px;
     }
     
     .logo3{
-        height: 220px;
+        height: 120px;
         position: absolute;
-        left: 320px;
-        top: 75px;
+        left: 290px;
+        top: 145px;
     
     }
     
@@ -311,7 +321,7 @@ footer{
         position: relative;        
         top: 172px;
         left: -20px;
-        width: 511px;
+        width: 411px;
         border: outset;
         border-color: rgba(39, 194, 39, 0.397);
         background-image: url('https://i.pinimg.com/736x/8f/fc/15/8ffc157a0f9b7b2964855e51a4992981.jpg');
@@ -328,7 +338,7 @@ footer{
         justify-content: space-between;
         font-size: 20px;
         color: rgb(202, 253, 0);
-        left: 130px;
+        left: 90px;
         display: block;
         width: 200px;
         position: relative;
@@ -337,35 +347,40 @@ footer{
         background-image: url("https://media3.giphy.com/media/rVrE0tpvjcgcE/200w.gif?cid=6c09b952tuh5k3vi9ge0ngudnosgqbosmp81s81l5jkhra48&ep=v1_gifs_search&rid=200w.gif&ct=g");
     }
     
-
+    
     #about img{
         position: relative;
-        height: 400px;
+        height: 350px;
         top: 40px;
-        left: 20px;
+        left: -20px;
+    }
+
+    #about .container{
+        width: 370px;
     }
     
+    
     #about img:hover{
-        height: 500px;
+        height: 400px;
     
     }
     
     #maps .container{
         display: block;
+        width: 370px;
     }
     
     #maps img{
         position: relative;
         top: -10px;
+        height: 200px;
+        width: 350px;
     }
 
-    #characters .container{
-        height: 3800px;
-    }
 
     .container{
         position: relative;
-        width: 460px;
+        width: 370px;
         display: flex;
         font-size: 18px;
         color: aliceblue;
@@ -440,7 +455,8 @@ footer{
         object-fit: contain;
         background-size: 1300px;
         top: 20px;
-        left: 100px;
+        left: 0px;
+
 
     }
     
@@ -525,9 +541,9 @@ footer{
     footer{
         position: relative;
         text-align: left;
-        font-size: 15px;
-        top: 100px;
-        width: 520px;
+        font-size: 10px;
+        top: px;
+        width: 400px;
         border: outset;
         border-color: rgba(34, 255, 0, 0.217);
         background-color: rgba(0, 161, 64, 0.575);
